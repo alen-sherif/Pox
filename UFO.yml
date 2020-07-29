@@ -1,0 +1,268 @@
+port: 1050
+socks-port: 1080
+allow-lan: true
+mode: Rule
+log-level: silent
+external-controller: 127.0.0.1:9090
+
+proxies:
+  - {name: Australia 🇦🇺 1, server: 103.1.212.4, port: 704, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3}
+  - {name: Australia 🇦🇺 2, server: 50.7.252.114, port: 703, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3, udp: true}
+  - {name: Canada 🇨🇦, server: 72.140.224.195, port: 705, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3, udp: true}
+  - {name: Finland 🇫🇮 1, server: 185.212.149.9, port: 700, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3, udp: true}
+  - {name: Finland 🇫🇮 2, server: 185.117.118.137, port: 714, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3}
+  - {name: Finland 🇫🇮 3, server: 185.117.118.138, port: 712, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3, udp: true}
+  - {name: Finland 🇫🇮 4, server: 185.112.82.15, port: 713, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3}
+  - {name: France 🇫🇷 1, server: 217.138.207.74, port: 705, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3, udp: true}
+  - {name: France 🇫🇷 2, server: 51.159.30.61, port: 704, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3}
+  - {name: France 🇫🇷 3, server: 185.128.25.150, port: 703, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3, udp: true}
+  - {name: France 🇫🇷 4, server: 163.172.83.244, port: 702, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3}
+  - {name: France 🇫🇷 5, server: 195.154.28.252, port: 701, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3, udp: true}
+  - {name: Germany 🇩🇪 1, server: 93.90.203.42, port: 703, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3, udp: true}
+  - {name: Germany 🇩🇪 2, server: 164.68.105.77, port: 704, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3}
+  - {name: Germany 🇩🇪 3, server: 193.108.118.140, port: 705, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3, udp: true}
+  - {name: Germany 🇩🇪 4, server: 5.199.130.41, port: 706, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3}
+  - {name: Germany 🇩🇪 5, server: 62.141.42.18, port: 701, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3, udp: true}
+  - {name: Germany 🇩🇪 6, server: 193.176.86.190, port: 709, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3}
+  - {name: Germany 🇩🇪 7, server: 217.79.189.8, port: 700, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3, udp: true}
+  - {name: Germany 🇩🇪 8, server: 51.89.40.125, port: 711, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3}
+  - {name: Germany 🇩🇪 9, server: 51.89.21.79, port: 710, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3, udp: true}
+  - {name: Germany 🇩🇪 10, server: 193.108.118.170, port: 702, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3}
+  - {name: Germany 🇩🇪 11, server: 51.89.99.52, port: 714, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3, udp: true}
+  - {name: Germany 🇩🇪 12, server: 51.89.21.82, port: 707, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3}
+  - {name: Germany 🇩🇪 13, server: 51.89.43.180, port: 708, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3, udp: true}
+  - {name: Germany 🇩🇪 14, server: 217.79.189.10, port: 711, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3}
+  - {name: Germany 🇩🇪 15, server: 51.89.43.205, port: 712, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3, udp: true}
+  - {name: Germany 🇩🇪 16, server: 193.108.117.86, port: 707, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3}
+  - {name: Germany 🇩🇪 17, server: 51.89.21.81, port: 713, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3, udp: true}
+  - {name: Germany 🇩🇪 18, server: 18.185.25.229, port: 710, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3}
+  - {name: Germany 🇩🇪 19, server: 51.89.67.48, port: 709, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3, udp: true}
+  - {name: Germany 🇩🇪 20, server: 217.138.194.246, port: 708, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3}
+  - {name: Hong Kong 🇭🇰, server: 148.66.56.99, port: 704, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3, udp: true}
+  - {name: India 🇮🇳, server: 35.154.102.36, port: 707, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3, udp: true}
+  - {name: Ireland 🇮🇪 1, server: 34.243.75.229, port: 706, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3, udp: true}
+  - {name: Ireland 🇮🇪 2, server: 84.247.48.142, port: 705, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3}
+  - {name: Italy 🇮🇹, server: 158.58.172.16, port: 708, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3, udp: true}
+  - {name: Japan 🇯🇵 1, server: 37.120.210.198, port: 710, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3, udp: true}
+  - {name: Japan 🇯🇵 2, server: 45.85.0.103, port: 709, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3}
+  - {name: Netherlands 🇳🇱 1, server: 89.238.177.242, port: 712, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3, udp: true}
+  - {name: Netherlands 🇳🇱 2, server: 37.120.192.158, port: 713, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3}
+  - {name: New Zealand 🇳🇿, server: 103.62.49.141, port: 714, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3, udp: true}
+  - {name: Russia 🇷🇺, server: 92.38.152.189, port: 700, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3, udp: true}
+  - {name: Singapore 🇸🇬 1, server: 18.139.2.60, port: 702, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3, udp: true}
+  - {name: Singapore 🇸🇬 2, server: 37.120.151.14, port: 701, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3}
+  - {name: South Korea 🇰🇷, server: 123.215.16.234, port: 711, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3, udp: true}
+  - {name: Switzerland 🇨🇭, server: 45.134.17.152, port: 706, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3, udp: true}
+  - {name: Turkey 🇹🇷, server: 45.123.119.56, port: 703, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3, udp: true}
+  - {name: United Arab Emirates 🇦🇪 1, server: 217.138.193.6, port: 701, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3, udp: true}
+  - {name: United Arab Emirates 🇦🇪 2, server: 109.169.72.249, port: 700, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3}
+  - {name: United Arab Emirates 🇦🇪 3, server: 217.138.193.10, port: 702, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3, udp: true}
+  - {name: United Kingdom 🇬🇧 1, server: 92.223.59.57, port: 713, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3, udp: true}
+  - {name: United Kingdom 🇬🇧 2, server: 89.238.128.58, port: 706, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3}
+  - {name: United Kingdom 🇬🇧 3, server: 195.12.49.82, port: 703, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3, udp: true}
+  - {name: United Kingdom 🇬🇧 4, server: 5.188.5.80, port: 714, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3}
+  - {name: United Kingdom 🇬🇧 5, server: 92.223.59.220, port: 710, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3, udp: true}
+  - {name: United Kingdom 🇬🇧 6, server: 217.138.195.138, port: 700, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3}
+  - {name: United Kingdom 🇬🇧 7, server: 5.188.5.90, port: 701, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3, udp: true}
+  - {name: United Kingdom 🇬🇧 8, server: 92.223.59.231, port: 709, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3}
+  - {name: United Kingdom 🇬🇧 9, server: 5.188.5.94, port: 711, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3, udp: true}
+  - {name: United Kingdom 🇬🇧 10, server: 92.223.59.241, port: 707, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3}
+  - {name: United Kingdom 🇬🇧 11, server: 5.188.5.105, port: 712, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3, udp: true}
+  - {name: United Kingdom 🇬🇧 12, server: 92.223.59.226, port: 708, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3}
+  - {name: United Kingdom 🇬🇧 13, server: 88.150.240.246, port: 702, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3, udp: true}
+  - {name: United States 🇺🇸 1, server: 66.55.148.42, port: 712, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3, udp: true}
+  - {name: United States 🇺🇸 2, server: 38.91.107.225, port: 705, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3}
+  - {name: United States 🇺🇸 3, server: 193.37.252.210, port: 713, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3, udp: true}
+  - {name: United States 🇺🇸 4, server: 38.95.109.250, port: 706, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3}
+  - {name: United States 🇺🇸 5, server: 185.239.173.194, port: 710, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3, udp: true}
+  - {name: United States 🇺🇸 6, server: 162.251.61.221, port: 708, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3}
+  - {name: United States 🇺🇸 7, server: 103.124.104.187, port: 704, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3, udp: true}
+  - {name: United States 🇺🇸 8, server: 92.38.149.94, port: 711, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3}
+  - {name: United States 🇺🇸 9, server: 38.132.103.74, port: 707, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3, udp: true}
+  - {name: United States 🇺🇸 10, server: 38.68.134.163, port: 709, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3}
+  - {name: Vietnam 🇻🇳, server: 45.124.85.75, port: 717, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3, udp: true}
+proxy-groups:
+  - name: 🔰 Select
+    type: select
+    proxies:
+      - 🔥 Auto
+      - ✅ Direct
+      - Australia 🇦🇺 1
+      - Australia 🇦🇺 2
+      - Canada 🇨🇦
+      - Finland 🇫🇮 1
+      - Finland 🇫🇮 2
+      - Finland 🇫🇮 3
+      - Finland 🇫🇮 4
+      - France 🇫🇷 1
+      - France 🇫🇷 2
+      - France 🇫🇷 3
+      - France 🇫🇷 4
+      - France 🇫🇷 5
+      - Germany 🇩🇪 1
+      - Germany 🇩🇪 2
+      - Germany 🇩🇪 3
+      - Germany 🇩🇪 4
+      - Germany 🇩🇪 5
+      - Germany 🇩🇪 6
+      - Germany 🇩🇪 7
+      - Germany 🇩🇪 8
+      - Germany 🇩🇪 9
+      - Germany 🇩🇪 10
+      - Germany 🇩🇪 11
+      - Germany 🇩🇪 12
+      - Germany 🇩🇪 13
+      - Germany 🇩🇪 14
+      - Germany 🇩🇪 15
+      - Germany 🇩🇪 16
+      - Germany 🇩🇪 17
+      - Germany 🇩🇪 18
+      - Germany 🇩🇪 19
+      - Germany 🇩🇪 20
+      - Hong Kong 🇭🇰
+      - India 🇮🇳
+      - Ireland 🇮🇪 1
+      - Ireland 🇮🇪 2
+      - Italy 🇮🇹
+      - Japan 🇯🇵 1
+      - Japan 🇯🇵 2
+      - Netherlands 🇳🇱 1
+      - Netherlands 🇳🇱 2
+      - New Zealand 🇳🇿
+      - Russia 🇷🇺
+      - Singapore 🇸🇬 1
+      - Singapore 🇸🇬 2
+      - South Korea 🇰🇷
+      - Switzerland 🇨🇭
+      - Turkey 🇹🇷
+      - United Arab Emirates 🇦🇪 1
+      - United Arab Emirates 🇦🇪 2
+      - United Arab Emirates 🇦🇪 3
+      - United Kingdom 🇬🇧 1
+      - United Kingdom 🇬🇧 2
+      - United Kingdom 🇬🇧 3
+      - United Kingdom 🇬🇧 4
+      - United Kingdom 🇬🇧 5
+      - United Kingdom 🇬🇧 6
+      - United Kingdom 🇬🇧 7
+      - United Kingdom 🇬🇧 8
+      - United Kingdom 🇬🇧 9
+      - United Kingdom 🇬🇧 10
+      - United Kingdom 🇬🇧 11
+      - United Kingdom 🇬🇧 12
+      - United Kingdom 🇬🇧 13
+      - United States 🇺🇸 1
+      - United States 🇺🇸 2
+      - United States 🇺🇸 3
+      - United States 🇺🇸 4
+      - United States 🇺🇸 5
+      - United States 🇺🇸 6
+      - United States 🇺🇸 7
+      - United States 🇺🇸 8
+      - United States 🇺🇸 9
+      - United States 🇺🇸 10
+      - Vietnam 🇻🇳
+
+  - name: ✅ Direct
+    type: select
+    proxies:
+      - DIRECT
+
+  - name: 🚫 Intercept
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+
+  - name: 🔥 Auto
+    type: url-test
+    proxies:
+      - Australia 🇦🇺 1
+      - Australia 🇦🇺 2
+      - Canada 🇨🇦
+      - Finland 🇫🇮 1
+      - Finland 🇫🇮 2
+      - Finland 🇫🇮 3
+      - Finland 🇫🇮 4
+      - France 🇫🇷 1
+      - France 🇫🇷 2
+      - France 🇫🇷 3
+      - France 🇫🇷 4
+      - France 🇫🇷 5
+      - Germany 🇩🇪 1
+      - Germany 🇩🇪 2
+      - Germany 🇩🇪 3
+      - Germany 🇩🇪 4
+      - Germany 🇩🇪 5
+      - Germany 🇩🇪 6
+      - Germany 🇩🇪 7
+      - Germany 🇩🇪 8
+      - Germany 🇩🇪 9
+      - Germany 🇩🇪 10
+      - Germany 🇩🇪 11
+      - Germany 🇩🇪 12
+      - Germany 🇩🇪 13
+      - Germany 🇩🇪 14
+      - Germany 🇩🇪 15
+      - Germany 🇩🇪 16
+      - Germany 🇩🇪 17
+      - Germany 🇩🇪 18
+      - Germany 🇩🇪 19
+      - Germany 🇩🇪 20
+      - Hong Kong 🇭🇰
+      - India 🇮🇳
+      - Ireland 🇮🇪 1
+      - Ireland 🇮🇪 2
+      - Italy 🇮🇹
+      - Japan 🇯🇵 1
+      - Japan 🇯🇵 2
+      - Netherlands 🇳🇱 1
+      - Netherlands 🇳🇱 2
+      - New Zealand 🇳🇿
+      - Russia 🇷🇺
+      - Singapore 🇸🇬 1
+      - Singapore 🇸🇬 2
+      - South Korea 🇰🇷
+      - Switzerland 🇨🇭
+      - Turkey 🇹🇷
+      - United Arab Emirates 🇦🇪 1
+      - United Arab Emirates 🇦🇪 2
+      - United Arab Emirates 🇦🇪 3
+      - United Kingdom 🇬🇧 1
+      - United Kingdom 🇬🇧 2
+      - United Kingdom 🇬🇧 3
+      - United Kingdom 🇬🇧 4
+      - United Kingdom 🇬🇧 5
+      - United Kingdom 🇬🇧 6
+      - United Kingdom 🇬🇧 7
+      - United Kingdom 🇬🇧 8
+      - United Kingdom 🇬🇧 9
+      - United Kingdom 🇬🇧 10
+      - United Kingdom 🇬🇧 11
+      - United Kingdom 🇬🇧 12
+      - United Kingdom 🇬🇧 13
+      - United States 🇺🇸 1
+      - United States 🇺🇸 2
+      - United States 🇺🇸 3
+      - United States 🇺🇸 4
+      - United States 🇺🇸 5
+      - United States 🇺🇸 6
+      - United States 🇺🇸 7
+      - United States 🇺🇸 8
+      - United States 🇺🇸 9
+      - United States 🇺🇸 10
+      - Vietnam 🇻🇳
+
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+
+rules:
+  - DOMAIN-SUFFIX,local,✅ Direct
+  - DOMAIN-SUFFIX,google.com,🔰 Select
+  - DOMAIN-KEYWORD,google,🔰 Select
+  - DOMAIN,google.com,🔰 Select
+  - DOMAIN-SUFFIX,ad.com,🚫 Intercept
+  - SRC-IP-CIDR,192.168.1.201/32,✅ Direct
+  - IP-CIDR,127.0.0.0/8,✅ Direct
+  - GEOIP,IR,✅ Direct
+  - MATCH,,🔰 Select,dns-failed
